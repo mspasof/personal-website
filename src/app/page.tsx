@@ -2,7 +2,7 @@
 "use client";
 
 import { Sidebar, SidebarCollapse, SidebarItem, SidebarItemGroup, SidebarItems } from "flowbite-react";
-import { HiChartPie } from "react-icons/hi";
+import { FaPencil } from "react-icons/fa6";
 import { MdPerson } from "react-icons/md";
 import { GoHistory } from "react-icons/go";
 import { GrContactInfo } from "react-icons/gr";
@@ -15,6 +15,7 @@ export default function Component() {
           <SidebarItem href="#" icon={MdPerson}>
             About me
           </SidebarItem>
+          <SidebarItem href='#' icon={FaPencil}>Blog</SidebarItem>
           <SidebarCollapse icon={GoHistory} label="Projects">
             <SidebarItem href="#">Project #1</SidebarItem>
             <SidebarItem href="#">Project #2</SidebarItem>
